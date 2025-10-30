@@ -42,6 +42,10 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
+name = input("What is your name?\n")
+age = int(input("And how old are you?\n"))
+
+print(f"{name} is {age} years old!")
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -78,6 +82,8 @@ print("-------------------------------------------\n"
 # That means you are about 3.1 decades old.
 #
 # Write your code below:
+next_year_age=age+1
+print(f" your next year age is :- {next_year_age}")
 
 
 # -------------------------------------------
@@ -111,6 +117,14 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
+if age > 61 and age < 79:
+    print("You are a boomer!")
+elif age > 45 and age < 60:
+    print("You are Gen X!")
+elif age > 29 and age < 44:
+    print("You are a millenial!")
+else:
+    print("You are not a Boomer, Millenial or Gen X.")
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -143,6 +157,16 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
+current_year=2025
+year_of_birth=current_year - age
+born_year=current_year - year_of_birth
+print (f"your were born in {year_of_birth}")
+if year_of_birth >2000 :
+    print("you were born in the 20 th century")
+else:
+    print("you were born in 20 th centruy")
+
+
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -169,6 +193,8 @@ print("-------------------------------------------\n"
 #     Next year you will be <next_year_age>. That’s about <decades> decades old!"
 #
 # Write your code below:
+
+print(f"Hi {name}, you are {age} years old, born in {year_of_birth} and will be {next_year_age} next year, that means your about {decades} years old!")
 
 
 # -------------------------------------------
@@ -202,6 +228,10 @@ print("-------------------------------------------\n"
 # Your lucky total is 54!
 
 # Write your code below:
+
+fave_num = int(input("What is your favourite number?\n"))
+
+print(f"{fave_num*age} is your lucky total!")
 
 
 # -------------------------------------------

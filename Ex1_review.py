@@ -42,6 +42,10 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
+name = input("What is your name?\n")
+age = int(input("And how old are you?\n"))
+
+print(f"{name} is {age} years old!")
 
 # -------------------------------------------
 # SWAP COMPUTERS

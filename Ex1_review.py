@@ -42,10 +42,10 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
-# name = input("What is your name?\n")
+name = input("What is your name?\n")
 age = int(input("And how old are you?\n"))
 
-# print(f"{name} is {age} years old!")
+print(f"{name} is {age} years old!")
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -82,8 +82,8 @@ print("-------------------------------------------\n"
 # That means you are about 3.1 decades old.
 #
 # Write your code below:
-# next_year_age=age+1
-# print(f" your next year age is :- {next_year_age}")
+next_year_age=age+1
+print(f" your next year age is :- {next_year_age}")
 
 
 # -------------------------------------------
@@ -159,7 +159,7 @@ print("-------------------------------------------\n"
 
 current_year=2025
 year_of_birth=current_year - age
-##born_year=current_year - year_of_birth
+born_year=current_year - year_of_birth
 print (f"your were born in {year_of_birth}")
 if year_of_birth >2000 :
     print("you were born in the 20 th century")

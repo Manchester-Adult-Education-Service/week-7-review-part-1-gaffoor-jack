@@ -42,10 +42,10 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
-name = input("What is your name?\n")
+# name = input("What is your name?\n")
 age = int(input("And how old are you?\n"))
 
-print(f"{name} is {age} years old!")
+# print(f"{name} is {age} years old!")
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -82,8 +82,8 @@ print("-------------------------------------------\n"
 # That means you are about 3.1 decades old.
 #
 # Write your code below:
-next_year_age=age+1
-print(f" your next year age is :- {next_year_age}")
+# next_year_age=age+1
+# print(f" your next year age is :- {next_year_age}")
 
 
 # -------------------------------------------
@@ -117,6 +117,14 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
+if age > 61 and age < 79:
+    print("You are a boomer!")
+elif age > 45 and age < 60:
+    print("You are Gen X!")
+elif age > 29 and age < 44:
+    print("You are a millenial!")
+else:
+    print("You are not a Boomer, Millenial or Gen X.")
 
 # -------------------------------------------
 # SWAP COMPUTERS

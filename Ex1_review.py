@@ -157,6 +157,16 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
+current_year=2025
+year_of_birth=current_year - age
+##born_year=current_year - year_of_birth
+print (f"your were born in {year_of_birth}")
+if year_of_birth >2000 :
+    print("you were born in the 20 th century")
+else:
+    print("you were born in 20 th centruy")
+
+
 
 # -------------------------------------------
 # SWAP COMPUTERS

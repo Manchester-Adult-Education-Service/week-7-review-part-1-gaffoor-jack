@@ -194,6 +194,8 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
+print(f"Hi {name}, you are {age} years old, born in {year_of_birth} and will be {next_year_age} next year, that means your about {decades} years old!")
+
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -226,6 +228,10 @@ print("-------------------------------------------\n"
 # Your lucky total is 54!
 
 # Write your code below:
+
+fave_num = int(input("What is your favourite number?\n"))
+
+print(f"{fave_num*age} is your lucky total!")
 
 
 # -------------------------------------------
